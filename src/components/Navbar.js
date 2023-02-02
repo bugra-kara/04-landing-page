@@ -40,7 +40,7 @@ const Navbar = () => {
           </ul>
         </div>
         :
-        <nav className='h-24 w-full flex justify-center px-5 bg-blue place-items-center border-b-orange border-b-2'>
+        <nav className='h-24 w-full flex justify-center px-5 bg-blue place-items-center'>
           <div className='container grid grid-cols-2 sm:grid-cols-7 justify-items-center sm:justify-items-start gap-5 sm:px-4 md:px-8 lg:px-12 xl:px-48'>
             <div className='col-span-1 w-full sm:w-auto justify-center py-1.5'>
               <img src={Logo} alt="" />
